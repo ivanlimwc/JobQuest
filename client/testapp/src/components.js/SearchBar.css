@@ -1,0 +1,66 @@
+.input-wrapper{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 2.0rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 0px #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 200px;
+    padding: 10px;
+    color: black;
+    align-items: left;
+    overflow-y: scroll;
+    height: 2.0rem;
+    /* padding: 0 15px; */
+    /* grid-template-columns: repeat(3,1fr); */
+}
+.panel fieldset{
+    display: flex;
+}
+
+.company-review-wrapper{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 2.0rem;
+    box-shadow: 0px 0px 0px #ddd;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    border-radius: 200px;
+    height: 2.0rem;
+    font-size: large;
+    padding: 0 10px;
+    box-shadow: 0px 0px 0px #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: green;
+}
+
+
+
+#search-icon{
+    color: green;
+}
+
+#location-icon{
+    color: green;
+}
+
+#minus-icon{
+    color: red;
+}
+
+#check-icon{
+    color: green;
+}
