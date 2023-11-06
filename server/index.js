@@ -10,10 +10,10 @@ app.use(cors());
 
 const db = mysql.createPool({
     connectionLimit : 10,
-    host            : 'wpi-cs542-gp5.cckba7esnjk6.us-east-2.rds.amazonaws.com', //'localhost',
-    user            : 'adminBlue',
-    password        : 'tugrac-2xodcy-gAnkoh', //'Wpiemerald@2020', 
-    database        : 'JOBMATCHINGDBMS', //'job_db', 
+    host            : 'wpi-cs542-gp5.cckba7esnjk6.us-east-2.rds.amazonaws.com', // 'abcdefg.us-east-2.rds.amazonaws.com',
+    user            : 'adminBlue', // 'xyzpqr',
+    password        : 'tugrac-2xodcy-gAnkoh', // 'stuvwxyz',
+    database        : 'JOBMATCHINGDBMS', 
 })
 
 app.post('/signin', (req,res) => {
